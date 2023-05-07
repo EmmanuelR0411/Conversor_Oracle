@@ -18,7 +18,6 @@ public class ApiCurrency {
 		try {
 			// https://v6.exchangerate-api.com/v6/0370e6ee2fd7d120f6a91cd0/latest/USD
 			String ur = "https://v6.exchangerate-api.com/v6/0370e6ee2fd7d120f6a91cd0/latest/" + monedaO;
-			System.out.println("URL: " + ur);
 			URL url = new URL(ur);
 
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
