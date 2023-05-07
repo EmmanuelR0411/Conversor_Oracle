@@ -22,13 +22,13 @@ Es un conversor de divisas y temperatura creado con java. La conversion de divis
 ### Funcionalidades
 * `Conversor de moneda`: El programa cuenta con diversas opciones para convertir las divisas
 <div align="center">
-    <img  src="opcionDivisas.png" width="450px">
+    <img  src="./src/IMG/opcionDivisas.png" width="450px">
 </div>
 Al seleccionar una opcion, se realizaz una peticion a el <a href="https://www.exchangerate-api.com/" target="_blank"> ExchangeRate-API</a>, una vez obtenida la respuesta, el programa realiza la conversión y muestra los resultados de la operación.
 
 * `Conversor de temperatura`: De igual forma, el programa cuenta con varias opciones para realizar la conversión de temperatura
 <div align="center">
-    <img  src="opcionTemperatura.png" width="450px">
+    <img  src="./src/IMG/opcionTemperatura.png" width="450px">
 </div>
 Una vez seleccionada una, a diferencia de la funcion anterior, aquí el programa realiza el calculo con formulas establecidas de manera interna.
 
